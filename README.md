@@ -84,11 +84,44 @@
 	- 클래스와 객체의 차이점은 무엇인가?
 	  - 객체는 구현할 대상을 의미하며, 클래스는 객체를 구현하기 위한 설계도의 역할을 함
 - 객체 생성하기
-	- 클래스를 정의해보자
-	- 클래스에 필드를 추가해보자
-	- 클래스에 메소드를 추가해보자
-	- 클래스로 객체를 생성해보자
-	- 클래스의 필드와 메소드를 사용해보자
+  - 클래스를 정의해보자
+
+    - ```java
+      public class Hello {
+          public static void main(String[] args) {
+            
+          }
+      }
+      ```
+
+      
+
+  - 클래스에 필드를 추가해보자
+
+  - 클래스에 메소드를 추가해보자
+
+  - ```java
+    public class Hello {
+      public static void sum(int left, int right) {
+        System.out.println(left + right);
+      }
+      
+      public static void main(String[] args) {
+        int left, right;
+        
+        left = 10;
+        right = 20;
+        
+        sum(left, right);
+        }
+    }
+    ```
+
+    
+
+  - 클래스로 객체를 생성해보자
+
+  - 클래스의 필드와 메소드를 사용해보자
 - 객체지향 프로그래밍
 	- 상속이란 무엇인가?
 	  - 상위클래스의 모든 것을 하위클래스가 물려받아 내것처럼 사용함을 의미
